@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
     color: rgba(255, 255, 255, .7);
 }
 section {
-    padding: 6rem 0;
+    padding: 4rem 0;
 
 }
 .section-heading {
@@ -230,7 +230,7 @@ header.masthead h1 {
 }
 .btn {
     
-    text-transform: uppercase;
+    text-transform: ;
     border: none;
     background-color: #ffffff;
     color: #334454;
@@ -253,12 +253,29 @@ header.masthead h1 {
 }
 
 
+.foot{
+    text-align: left;
+}
 
+@media (max-width:768px) {
+    .foot {
+    text-align: center;
+}
+}
 
+.foot2{
+    text-align: right;
+}
+
+@media (max-width:768px) {
+    .foot2 {
+    text-align: center;
+}
+}
 
 
 .card_hover {
-       opacity: 0.3; 
+       opacity: 0.2; 
         
         
     }
