@@ -231,9 +231,10 @@ header.masthead h1 {
 .btn {
     
     text-transform: ;
-    border: none;
-    background-color: #ffffff;
-    color: #334454;
+    border: px;
+    border-color: #ffffff;
+    background-color: #334454;
+    color: #ffffff;
     border-radius: 4px;
    font-family: 'Roboto', sans-serif;
 }
