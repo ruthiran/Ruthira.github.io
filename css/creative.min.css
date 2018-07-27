@@ -17,14 +17,13 @@ hr.light {
     border-color: #fff;
 }
 a {
-    color: #f05f40;
+    
     -webkit-transition: all .2s;
     -moz-transition: all .2s;
     transition: all .2s;
 }
 a:hover {
-    color: #f05f40;
-}
+    }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
 }
@@ -37,7 +36,16 @@ h1, h2, h3, h4, h5, h6 {
 .text-faded {
     color: rgba(255, 255, 255, .7);
 }
-section {
+/*section {
+    padding: 4rem 0;
+
+}*/
+/*                  Section padding                 */
+.bluestrip {
+    padding: rem 0;
+
+}
+.footbg {
     padding: 4rem 0;
 
 }
@@ -271,6 +279,17 @@ header.masthead h1 {
 @media (max-width:768px) {
     .foot2 {
     text-align: center;
+}
+}
+
+.portfolio{
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+@media (max-width:768px) {
+    .portfolio {
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 }
 
