@@ -4,7 +4,7 @@ body, html {
 
 }
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
 
 }
 hr {
@@ -25,7 +25,7 @@ a {
 a:hover {
     }
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 .bg-primary {
     background-color: #4E78DE!important;
@@ -73,7 +73,7 @@ img::-moz-selection {
 #mainNav {
     border-bottom: 1px solid rgba(33, 37, 41, .1);
     background-color: #fff;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     -webkit-transition: all .2s;
     -moz-transition: all .2s;
     transition: all .2s;
@@ -82,7 +82,7 @@ img::-moz-selection {
     
     text-transform: uppercase;
     color: #f05f40;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
     color: #f05f40;
@@ -180,12 +180,11 @@ header.masthead h1 {
 }.service-box {
     max-width: 400px;
 }
-.portfolio-box {
-    position: relative;
-    display: block;
-    max-width: 650px;
-    margin: 0 auto;
-}
+
+
+
+
+
 .portfolio-box .portfolio-box-caption {
     position: absolute;
     bottom: 0;
@@ -209,7 +208,7 @@ header.masthead h1 {
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category, .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     padding: 0 15px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
 
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -244,7 +243,7 @@ header.masthead h1 {
     background-color: #334454;
     color: #ffffff;
     border-radius: 4px;
-   font-family: 'Roboto', sans-serif;
+   font-family: 'Lato', sans-serif;
 }
 .btn-xl {
     padding: 1rem 2rem;
@@ -302,3 +301,13 @@ header.masthead h1 {
     .card_hover:hover {
       opacity: 1;
     }
+
+
+
+.card{
+    border-width: 1px;
+    border-color: #EAECED;
+}
+.card:hover{
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, .05);
+}
