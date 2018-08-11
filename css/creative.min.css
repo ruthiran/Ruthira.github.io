@@ -5,7 +5,7 @@ body, html {
 }
 body {
     font-family: 'Lato', sans-serif;
-    letter-spacing: 0.8px;
+    letter-spacing: 0.6px;
 
 }
 hr {
@@ -279,6 +279,16 @@ header.masthead h1 {
 @media (max-width:768px) {
     .foot2 {
     text-align: center;
+}
+}
+
+.formobile{
+    padding-top: 0px;
+}
+
+@media (max-width:768px) {
+    .formobile{
+    padding-top: 40px;
 }
 }
 
