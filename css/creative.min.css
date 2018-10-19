@@ -292,6 +292,17 @@ header.masthead h1 {
 }
 }
 
+.site-padding{
+   padding-left: 8rem; padding-right: 8rem;
+}
+
+@media (max-width:768px) {
+    .site-padding{
+    padding-left: 4rem; padding-right: 4rem;
+}
+}
+
+
 .portfolio{
     padding-left: 0rem;
     padding-right: 0rem;
