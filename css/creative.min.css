@@ -12,7 +12,7 @@ hr {
 	margin-left: 0px;
     max-width: 50px;
     border-width: 3px;
-    border-color: #4E78DE;
+    border-color: #3B48A5;
 }
 hr.light {
     border-color: #fff;
@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #4E78DE!important;
 }
 .bg-dark {
-    background-color: #3B48A5!important;
+    background-color: #3C55C1!important;
 }
 .text-faded {
     color: rgba(255, 255, 255, .7);
@@ -333,3 +333,7 @@ header.masthead h1 {
 .card:hover{
     box-shadow: 0px 6px 16px rgba(0, 0, 0, .05);
 }
+
+
+
+
