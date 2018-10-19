@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #4E78DE!important;
 }
 .bg-dark {
-    background-color: #334454!important;
+    background-color: #3B48A5!important;
 }
 .text-faded {
     color: rgba(255, 255, 255, .7);
@@ -305,7 +305,7 @@ header.masthead h1 {
 
 
 .card_hover {
-       opacity: 0.3; 
+       opacity: 0.6; 
         
         
     }
