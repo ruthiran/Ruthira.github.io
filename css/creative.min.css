@@ -33,6 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .bg-dark {
     background-color: #3C55C1!important;
+
 }
 .text-faded {
     color: rgba(255, 255, 255, .7);
@@ -298,7 +299,9 @@ header.masthead h1 {
 
 @media (max-width:768px) {
     .site-padding{
-    padding-left: 4rem; padding-right: 4rem;
+    padding-left: 0rem; padding-right: 0rem;
+    margin-left: 40px;
+    margin-right: 40px; 
 }
 }
 
