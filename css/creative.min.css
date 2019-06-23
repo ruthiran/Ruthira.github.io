@@ -12,7 +12,7 @@ hr {
 	margin-left: 0px;
     max-width: 50px;
     border-width: 3px;
-    border-color: #3B48A5;
+    border-color: #5C85FF;
 }
 hr.light {
     border-color: #fff;
@@ -27,12 +27,14 @@ a:hover {
     }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lato', sans-serif;
+
 }
 .bg-primary {
     background-color: #4E78DE!important;
 }
 .bg-dark {
-    background-color: #3C55C1!important;
+    background-color: #0D0E11!important;
+
 
 }
 .text-faded {
@@ -48,7 +50,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 .footbg {
-    padding: 4rem 0;
+    padding: 2rem 0;
 
 }
 .section-heading {
@@ -84,7 +86,7 @@ img::-moz-selection {
     
     text-transform: uppercase;
     color: #f05f40;
-    font-family: 'Lato', sans-serif;
+     font-family: 'Lato', sans-serif;
 }
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
     color: #f05f40;
@@ -285,6 +287,7 @@ header.masthead h1 {
 
 .formobile{
     padding-top: 0px;
+
 }
 
 
@@ -321,7 +324,7 @@ header.masthead h1 {
 
 
 .card_hover {
-       opacity: 0.6; 
+       opacity: 0.2; 
         
         
     }
