@@ -348,8 +348,12 @@ header.masthead h1 {
 
 
 .card{
-    border-width: 0.5px;
+    /*outline: #353A44 solid 1px;
+    outline-offset: -1px;*/
+    border-radius: 4px;
+    border-width: 1px;
     border-color: #353A44;
+
     background-color: #151515;
 }
 .card:hover{
