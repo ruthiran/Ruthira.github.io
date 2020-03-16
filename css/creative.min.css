@@ -7,6 +7,7 @@ body {
     font-family: 'Lato', sans-serif;
     letter-spacing: 0.6px;
 
+
 }
 hr {
 	margin-left: 0px;
@@ -51,6 +52,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .footbg {
     padding: 2rem 0;
+    height: auto;
+     
 
 }
 .section-heading {
@@ -267,6 +270,7 @@ header.masthead h1 {
 
 .foot{
     text-align: left;
+
 }
 
 @media (max-width:768px) {
@@ -307,7 +311,7 @@ header.masthead h1 {
 }
     
 .height-body{
-   height: 400px;
+   height: 1800px;
 }
 
 @media (max-width:768px) {
@@ -333,7 +337,7 @@ header.masthead h1 {
 
 
 .card_hover {
-       opacity: 0.2; 
+       opacity: 0.8; 
         
         
     }
@@ -344,13 +348,28 @@ header.masthead h1 {
 
 
 .card{
-    border-width: 1px;
-    border-color: #EAECED;
+    border-width: 0.5px;
+    border-color: #353A44;
+    background-color: #151515;
 }
 .card:hover{
-    box-shadow: 0px 6px 16px rgba(0, 0, 0, .05);
+    box-shadow: 0px 16px 12px rgba(0, 0, 0, .4);
+    
 }
 
+.card-text{
+     color: #89898A;
+     text-decoration: none;
+    
+}
+.card-text:hover{
+    color: #5C85FF;
+    text-decoration: none;
+    
+}
 
-
+.card-img-top{
+    height: 50%;
+    width: 100%;
+}
 
