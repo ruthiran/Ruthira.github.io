@@ -337,7 +337,7 @@ header.masthead h1 {
 
 
 .card_hover {
-       opacity: 0.8; 
+       opacity: 0.9; 
         
         
     }
@@ -373,7 +373,24 @@ header.masthead h1 {
 }
 
 .card-img-top{
-    height: 50%;
+    height: 60%;
     width: 100%;
+    overflow: hidden;
 }
+@media (max-width: 768px){
+    .card-img-top{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+  
+.height-body{
+   height: 1800px;
+}
+
+@media (max-width:768px) {
+    .height-body{
+    height: 1200px;
+} 
 
